@@ -21,12 +21,12 @@
 		918F05581764303900631DE7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		918F05591764303900631DE7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		918F055A1764303900631DE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		918F055D1764303900631DE7 /* Memo-Info.plist */ = {isa = PBXFileReference; path = "Memo-Info.plist"; sourceTree = "<group>"; };
+		918F055D1764303900631DE7 /* Memo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Memo-Info.plist"; sourceTree = "<group>"; };
 		918F055F1764303900631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		918F05611764303900631DE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		918F05631764303900631DE7 /* Memo-Prefix.pch */ = {isa = PBXFileReference; path = "Memo-Prefix.pch"; sourceTree = "<group>"; };
+		918F05631764303900631DE7 /* Memo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memo-Prefix.pch"; sourceTree = "<group>"; };
 		918F05651764303900631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		918F05671764303900631DE7 /* MemoAppDelegate.h */ = {isa = PBXFileReference; path = MemoAppDelegate.h; sourceTree = "<group>"; };
+		918F05671764303900631DE7 /* MemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoAppDelegate.h; sourceTree = "<group>"; };
 		918F05681764303900631DE7 /* MemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoAppDelegate.m; sourceTree = "<group>"; };
 		918F056B1764303900631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -247,6 +247,7 @@
 		918F05701764303900631DE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Memo/Memo-Prefix.pch";
 				INFOPLIST_FILE = "Memo/Memo-Info.plist";
@@ -258,6 +259,7 @@
 		918F05711764303900631DE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Memo/Memo-Prefix.pch";
 				INFOPLIST_FILE = "Memo/Memo-Info.plist";

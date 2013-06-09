@@ -10,8 +10,14 @@
 
 @interface MemoAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *_window;
+    NSTextField *_memoLine;
+    NSTableView *_tv;
+    NSMutableArray * memos;
 }
+@property (strong) IBOutlet NSTextField *memoLine;
+@property (strong) IBOutlet NSTableView *tv;
 
 @property (strong) IBOutlet NSWindow *window;
+- (IBAction)add:(id)sender;
 
 @end
