@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		918F05561764303900631DE7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918F05551764303900631DE7 /* Cocoa.framework */; };
+		918F05601764303900631DE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 918F055E1764303900631DE7 /* InfoPlist.strings */; };
+		918F05621764303900631DE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 918F05611764303900631DE7 /* main.m */; };
+		918F05661764303900631DE7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 918F05641764303900631DE7 /* Credits.rtf */; };
+		918F05691764303900631DE7 /* MemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 918F05681764303900631DE7 /* MemoAppDelegate.m */; };
+		918F056C1764303900631DE7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 918F056A1764303900631DE7 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		918F05511764303900631DE7 /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		918F05551764303900631DE7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		918F05581764303900631DE7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		918F05591764303900631DE7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		918F055A1764303900631DE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		918F055D1764303900631DE7 /* Memo-Info.plist */ = {isa = PBXFileReference; path = "Memo-Info.plist"; sourceTree = "<group>"; };
+		918F055F1764303900631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		918F05611764303900631DE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		918F05631764303900631DE7 /* Memo-Prefix.pch */ = {isa = PBXFileReference; path = "Memo-Prefix.pch"; sourceTree = "<group>"; };
+		918F05651764303900631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		918F05671764303900631DE7 /* MemoAppDelegate.h */ = {isa = PBXFileReference; path = MemoAppDelegate.h; sourceTree = "<group>"; };
+		918F05681764303900631DE7 /* MemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoAppDelegate.m; sourceTree = "<group>"; };
+		918F056B1764303900631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		918F054E1764303900631DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918F05561764303900631DE7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		918F05461764303800631DE7 = {
+			isa = PBXGroup;
+			children = (
+				918F055B1764303900631DE7 /* Memo */,
+				918F05541764303900631DE7 /* Frameworks */,
+				918F05521764303900631DE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		918F05521764303900631DE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				918F05511764303900631DE7 /* Memo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		918F05541764303900631DE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				918F05551764303900631DE7 /* Cocoa.framework */,
+				918F05571764303900631DE7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		918F05571764303900631DE7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				918F05581764303900631DE7 /* AppKit.framework */,
+				918F05591764303900631DE7 /* CoreData.framework */,
+				918F055A1764303900631DE7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		918F055B1764303900631DE7 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				918F05671764303900631DE7 /* MemoAppDelegate.h */,
+				918F05681764303900631DE7 /* MemoAppDelegate.m */,
+				918F056A1764303900631DE7 /* MainMenu.xib */,
+				918F055C1764303900631DE7 /* Supporting Files */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		918F055C1764303900631DE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				918F055D1764303900631DE7 /* Memo-Info.plist */,
+				918F055E1764303900631DE7 /* InfoPlist.strings */,
+				918F05611764303900631DE7 /* main.m */,
+				918F05631764303900631DE7 /* Memo-Prefix.pch */,
+				918F05641764303900631DE7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		918F05501764303900631DE7 /* Memo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918F056F1764303900631DE7 /* Build configuration list for PBXNativeTarget "Memo" */;
+			buildPhases = (
+				918F054D1764303900631DE7 /* Sources */,
+				918F054E1764303900631DE7 /* Frameworks */,
+				918F054F1764303900631DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memo;
+			productName = Memo;
+			productReference = 918F05511764303900631DE7 /* Memo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		918F05481764303800631DE7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 918F054B1764303800631DE7 /* Build configuration list for PBXProject "Memo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 918F05461764303800631DE7;
+			productRefGroup = 918F05521764303900631DE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				918F05501764303900631DE7 /* Memo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		918F054F1764303900631DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918F05601764303900631DE7 /* InfoPlist.strings in Resources */,
+				918F05661764303900631DE7 /* Credits.rtf in Resources */,
+				918F056C1764303900631DE7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		918F054D1764303900631DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918F05621764303900631DE7 /* main.m in Sources */,
+				918F05691764303900631DE7 /* MemoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		918F055E1764303900631DE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				918F055F1764303900631DE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		918F05641764303900631DE7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				918F05651764303900631DE7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		918F056A1764303900631DE7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				918F056B1764303900631DE7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		918F056D1764303900631DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		918F056E1764303900631DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		918F05701764303900631DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memo/Memo-Prefix.pch";
+				INFOPLIST_FILE = "Memo/Memo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		918F05711764303900631DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memo/Memo-Prefix.pch";
+				INFOPLIST_FILE = "Memo/Memo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		918F054B1764303800631DE7 /* Build configuration list for PBXProject "Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918F056D1764303900631DE7 /* Debug */,
+				918F056E1764303900631DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918F056F1764303900631DE7 /* Build configuration list for PBXNativeTarget "Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918F05701764303900631DE7 /* Debug */,
+				918F05711764303900631DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 918F05481764303800631DE7 /* Project object */;
+}
